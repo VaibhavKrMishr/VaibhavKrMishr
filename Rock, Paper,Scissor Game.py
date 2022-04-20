@@ -27,7 +27,7 @@ while True:
              print("You Lose")
              
     play_again =  input("Play Again? (Y/N):")
-    if play_again.upper == "y":
+    if play_again.upper() == "y":
         break
     else:
         exit()
