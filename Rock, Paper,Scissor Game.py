@@ -5,8 +5,6 @@ while True:
     computer_action = random.choice(possible_action)
     print (f"\n Your choice: {user_action} :: Computer choice: {computer_action} \n" )
 
-
-
     if user_action == computer_action:
         print ("Both Player Selected {user_action}. It's a Tie! ")
     
