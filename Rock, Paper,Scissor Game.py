@@ -28,6 +28,6 @@ while True:
              
     play_again =  input("Play Again? (Y/N):")
     if play_again.upper == "y":
-                       
         break
-    
+    else:
+        exit()
