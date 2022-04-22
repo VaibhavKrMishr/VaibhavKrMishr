@@ -37,7 +37,11 @@ while True:
              print("You Lose")
              
     play_again =  input("Play Again? (Y/N):")
-    if play_again.upper() == "N":
+    possible_outcomes =  ['y', 'n','yes', 'no']
+    if   play_again.lower() not in possible_outcomes:
+        print ("Enter Vaild Input")
+        break 
+
         
         break
     
