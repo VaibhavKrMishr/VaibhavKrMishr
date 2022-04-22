@@ -1,32 +1,43 @@
 import random
-while True: 
+while True:
+    print("ROCK, PAPER, SCISSOR GAME")
     user_action = input("Enter Your Option(Rock, Paper, Scissor):")
-    possible_action = ['Rock', 'paper','Scissor']
-    computer_action = random.choice(possible_action)
-    print (f"\n Your choice: {user_action} :: Computer choice: {computer_action} \n" )
+    possible_actions = ['rock', 'paper','scissor']
+    computer_action = random.choice(possible_actions)
 
-    if user_action == computer_action:
-        print ("Both Player Selected {user_action}. It's a Tie! ")
+
+    if user_action.lower() not in possible_actions:  
+        print ("Enter Vaild Input")
+        
+        break
+
     
-    elif user_action == "Rock":
-         if computer_action == "Scissor":
+    print (f"\nYour choice: {user_action} AND Computer choice: {computer_action} \n" )
+
+    
+    if user_action.lower() == computer_action:
+        print (f"\nBoth Player Selected {user_action}. It's a Tie! \n")
+    
+    elif user_action.lower() == "rock":
+         if computer_action == "scissor":
              print("You Win!")
          else:
              print("You Lose")
          
-    elif user_action == "Scissor":
-         if computer_action == "Paper":
+    elif user_action.lower() == "scissor":
+         if computer_action == "paper":
              print("You Win!")
          else:
              print("You Lose")
          
-    elif user_action == "Paper":
-         if computer_action == "Rock":
+    elif user_action.lower() == "paper":
+         if computer_action == "rock":
              print("You Win!")
          else:
              print("You Lose")
              
     play_again =  input("Play Again? (Y/N):")
     if play_again.upper() == "N":
+        
         break
     
