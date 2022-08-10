@@ -1,0 +1,6 @@
+Python Program (File Handling)
+
+1. Replace all spaces from text with – (dash).
+2. Find the total occurrences of a specific word from a text file:
+3. Count the total number of upper case, lower case, and digits used in the text file “merge.txt”.
+4. A program in which user write the name of any state of India and in return the user get a little information about that state. (The File contaning the information is in csv).
