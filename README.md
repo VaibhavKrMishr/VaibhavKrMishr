@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I’m @VaibhavKrMishr <br>🔭I'm currently in college.<br>🤝 I'm looking to collaborate to learn and grow.<br>🎓I'm currently learning C++ and flutter. <br>📫 How to reach me through mail:- vkm2065@gmail.com <br>⚡Fun Fact: I sucks in Video Games🙂
+👋 Hi, I’m @VaibhavKrMishr <br>🔭I'm currently in college.<br>🤝 I'm looking to collaborate to learn and grow.<br>🎓I'm currently learning Arch. <br>📫 How to reach me through mail:- vkm2065@gmail.com 
 
 
 ## 🌐 Socials:
